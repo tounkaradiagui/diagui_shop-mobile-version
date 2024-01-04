@@ -36,7 +36,7 @@ const RegisterScreen = () => {
     };
 
     // Envoie d'une requete au backend API en utilisant axios
-    axios.post("http://127.0.0.1:19000/register",user).then((response) => {
+    axios.post("http://192.168.190.140:19000/register",user).then((response) => {
       console.log(response);
       Alert.alert(
         "Inscription effectuée Succès",
