@@ -22,8 +22,7 @@ const jwt = require("jsonwebtoken");
 
 mongoose
   .connect(
-    "mongodb+srv://tounkarakan:Diagui223@cluster0.pcusciy.mongodb.net/",
-    // "mongodb://127.0.0.1/firstMongoDBProject",
+        "mongodb+srv://tounkaradiagui:admin1234@mobileapp.djx1nff.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -36,8 +35,8 @@ mongoose
     console.log("Erreur de connexion", err);
   });
 
-app.listen(port, "127.0.0.1", () => {
-  console.log(`Server is running on http://127.0.0.1:${port}`);
+app.listen(port, "192.168.190.140", () => {
+  console.log(`Server is running on http://192.168.190.140:${port}`);
 });
 
 const User = require("./models/user");
