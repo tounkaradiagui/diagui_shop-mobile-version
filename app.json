@@ -11,6 +11,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+"extra": {
+      "eas": {
+        "projectId": "82f55017-c42c-4829-b90d-c86bec57100d"
+      }
+    },
+    "owner": "diaguitounkara",
     "assetBundlePatterns": [
       "**/*"
     ],
